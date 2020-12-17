@@ -1,14 +1,25 @@
 {
   "name": "vuepress-wjt",
   "version": "1.0.0",
-  "description": "我的笔记",
-  "main": "index.js",
+  "description": "",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weijintao92/vuepress-wjt.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weijintao92/vuepress-wjt/issues"
+  },
+  "homepage": "https://github.com/weijintao92/vuepress-wjt#readme",
   "devDependencies": {
     "vuepress": "^1.7.1"
   }
