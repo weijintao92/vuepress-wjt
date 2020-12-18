@@ -1,6 +1,10 @@
 module.exports = {
-  title: '未金涛的学习笔记',
-  description: '我自己的学习笔记',
+  title: '未金涛的笔记',
+  description: '未金涛的笔记',
+  //定制头部icon
+  head: [
+    ['link', { rel: 'rel', href: `docs/.vuepress/public/favicon.ico` }]
+  ],
   // 指定 vuepress build 的输出目录
   dest: 'dist',
   repo: 'https://github.com/txs1992/mt-blog',// 添加 github 链接

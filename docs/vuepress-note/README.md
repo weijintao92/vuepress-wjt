@@ -1,5 +1,5 @@
 ---
-title: vuepress学习笔记
+title: vuepress笔记
 sidebarDepth: 2
 ---
 <H2>我的笔记</H2>
