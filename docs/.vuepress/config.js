@@ -1,6 +1,6 @@
 module.exports = {
-  title: '未金涛的笔记',
-  description: '未金涛的笔记',
+  title: '未金涛的地盘',
+  description: '未金涛的地盘',
   //定制头部icon
   head: [
     ['link', { rel: 'rel', href: `docs/.vuepress/public/favicon.ico` }]
@@ -54,6 +54,19 @@ module.exports = {
         title: 'mpx',
         path: '/mpx/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
 
+      },
+      {
+        title: 'NGINX',
+        path: '/nginx/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        children: [{
+          title: 'nginx配置SSL证书',   // 必要的
+          path: '/nginx/configuration_ssl',
+        }],
+      },
+      {
+        title: 'PLAN',
+        path: '/my_plan/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        children: [],
       }
     ],
     // 最后更新时间
