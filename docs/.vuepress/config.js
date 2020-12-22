@@ -7,7 +7,7 @@ module.exports = {
   ],
   // 指定 vuepress build 的输出目录
   dest: 'dist',
-  repo: 'https://github.com/txs1992/mt-blog',// 添加 github 链接
+  repo: 'https://github.com/weijintao92/vuepress-wjt',// 添加 github 链接
   //端口
   port: '86',
   // 显示代码片段行号
