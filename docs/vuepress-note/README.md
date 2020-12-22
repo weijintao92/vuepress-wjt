@@ -11,3 +11,4 @@ sidebarDepth: 2
 #设置npm国内加速
 npm config set registry http://registry.npm.taobao.org/
 ```
+

@@ -66,8 +66,11 @@ module.exports = {
       {
         title: 'PLAN',
         path: '/my_plan/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        children: [],
-      }
+      },
+      {
+        title: 'vue-element-admin',
+        path: '/vue-element-admin/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+      } 
     ],
     // 最后更新时间
     // https://www.vuepress.cn/theme/default-theme-config.html#algolia-%E6%90%9C%E7%B4%A2

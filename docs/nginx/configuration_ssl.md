@@ -60,6 +60,14 @@ tags:
 ```
 
 
+# NGINX常用命令
+
+```
+nginx -s reload # 重新载入配置文件
+nginx -s reopen # 重启 Nginx
+nginx -s stop # 停止 Nginx
+netstat -lnpt #查看开放了哪些端口
+```
 
 # 参考
 [Nginx 配置SSL及Http跳转到Https](https://www.w3cschool.cn/nginxsysc/nginxsysc-ssl.html)
