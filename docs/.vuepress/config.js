@@ -23,7 +23,7 @@ module.exports = {
         text: '我的',
         // 这里是下拉列表展现形式。
         items: [
-          { text: 'csdn博客地址', link: 'https://blog.csdn.net/weixin_39753511?spm=1011.2124.3001.5113' }
+          { text: '我的个人博客', link: 'https://blog.csdn.net/weixin_39753511?spm=1011.2124.3001.5113' }
         ]
       }
     ],
