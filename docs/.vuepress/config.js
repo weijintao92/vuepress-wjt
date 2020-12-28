@@ -51,6 +51,15 @@ module.exports = {
         initialOpenGroupIndex: -1 // 可选的, 默认值是 0
       },
       {
+        title: 'Vue笔记',
+        path: '/vue/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        children: [{
+          title: 'VueRouter动态路由的坑',   // 必要的
+          path: '/vue/',
+        }],
+        initialOpenGroupIndex: -1 // 可选的, 默认值是 0
+      },
+      {
         title: 'mpx',
         path: '/mpx/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
 
