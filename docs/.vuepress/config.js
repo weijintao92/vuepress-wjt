@@ -52,13 +52,24 @@ module.exports = {
       },
       {
         title: 'Vue笔记',
-        path: '/vue/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        path: '/vue',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         children: [{
-          title: 'VueRouter动态路由的坑',   // 必要的
-          path: '/vue/',
-        },{
-          title: 'Clipboard 复制插件',   // 必要的
-          path: '/vue/Clipboard',
+          title: 'VueRouter',   // 必要的
+          path: '/vue/Router', 
+          children: [{
+            title: 'VueRouter 动态路由配置的坑',   // 必要的
+            path: '/vue/Router/VueRouter',
+          }]
+        }, {
+          title: '第三方插件',   // 必要的
+          path: '/vue/OtherPlugin', 
+          children: [{
+            title: 'Clipboard 复制插件',   // 必要的
+            path: '/vue/OtherPlugin/Clipboard',
+          },{
+            title: 'Highlight 在页面中高亮显示代码',   // 必要的
+            path: '/vue/OtherPlugin/Highlight',
+          }]
         }],
         initialOpenGroupIndex: -1 // 可选的, 默认值是 0
       },
@@ -81,7 +92,7 @@ module.exports = {
       {
         title: 'vue-element-admin',
         path: '/vue-element-admin/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-      } 
+      }
     ],
     // 最后更新时间
     // https://www.vuepress.cn/theme/default-theme-config.html#algolia-%E6%90%9C%E7%B4%A2
