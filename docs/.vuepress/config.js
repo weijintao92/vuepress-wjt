@@ -68,7 +68,11 @@ module.exports = {
         path: '/vue',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         children: [{
           title: 'Vue杂乱的个人笔记',   // 必要的
-          path: '/vue/OtherNote/'
+          path: '/vue/OtherNote/',
+          children: [{
+            title: '提取文件中的源码显示在Web前端页面',   // 必要的
+            path: '/vue/OtherNote/ShowCode',
+          }]
         }, {
           title: 'VueRouter',   // 必要的
           path: '/vue/Router',
@@ -121,7 +125,7 @@ module.exports = {
     smoothScroll: true,
 
     // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
-    repo: 'https://github.com/weijintao92/weijintao92.github.io.git',
+    repo: 'https://github.com/weijintao92/weijintao92.github.io',
     // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
     // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
     repoLabel: '查看源码',
@@ -129,11 +133,11 @@ module.exports = {
     // 以下为可选的编辑链接选项
 
     // 假如你的文档仓库和项目本身不在一个仓库：
-    docsRepo: 'https://github.com/weijintao92/vuepress-wjt.git',
+    docsRepo: 'https://github.com/weijintao92/vuepress-wjt',
     // 假如文档不是放在仓库的根目录下：
     docsDir: 'docs',
     // 假如文档放在一个特定的分支下：
-    docsBranch: 'master',
+    docsBranch: 'main',
     // 默认是 false, 设置为 true 来启用
     editLinks: true,
     // 默认为 "Edit this page"

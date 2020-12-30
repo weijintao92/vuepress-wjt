@@ -1,6 +1,8 @@
 ---
 title: VueRouter 动态路由配置的坑
-sidebarDepth: 2
+tags:
+  - router
+  - dynamic 
 ---
 
 ### VueRouter 动态路由配置的坑
