@@ -1,6 +1,5 @@
 ---
 title: Clipboard 复制插件
-sidebarDepth: 2
 tags:
   - Clipboard
   - copy

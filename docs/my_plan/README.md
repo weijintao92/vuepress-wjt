@@ -1,5 +1,7 @@
 ---
 title: 我的计划
+tags:
+  - plan
 ---
 
 # 学习前端vue

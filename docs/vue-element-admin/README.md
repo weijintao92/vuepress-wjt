@@ -1,9 +1,11 @@
 ---
 title: vue-element-admin
-sidebarDepth: 2
+tags:
+  - admin
+  - vue element admin
 ---
 
-## vue-element-admin
+# vue-element-admin
 
 [vue-element-admin](https://panjiachen.github.io/vue-element-admin)是一个后台前端解决方案
 
