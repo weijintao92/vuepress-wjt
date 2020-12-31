@@ -155,10 +155,10 @@ module.exports = {
       platform: 'github-v4', //v3的platform是github，v4的是github-v4
       locale: 'zh', //语言
       // 其他的 Vssue 配置
-      owner: 'OWNER_OF_REPO', //github账户名
-      repo: 'NAME_OF_REPO', //github一个项目的名称
-      clientId: 'YOUR_CLIENT_ID',//注册的Client ID
-      clientSecret: 'YOUR_CLIENT_SECRET',//注册的Client Secret
+      owner: 'weijintao92', //github账户名
+      repo: 'https://github.com/weijintao92/vuepress-wjt', //github一个项目的名称
+      clientId: '7bb076189aa05aa2542d',//注册的Client ID
+      clientSecret: '4eaf9f9cd4f0580bfb6637b157b3474d264d0df7',//注册的Client Secret
       autoCreateIssue:true // 自动创建评论，默认是false，最好开启，这样首次进入页面的时候就不用去点击创建评论的按钮了。
     },
   },
