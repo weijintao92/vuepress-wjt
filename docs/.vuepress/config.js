@@ -45,6 +45,13 @@ module.exports = {
       {
         title: 'PLAN',
         path: '/my_plan/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        children: [{
+          title: '计划',   // 必要的
+          path: '/my_plan/',
+        },{
+          title: '问题清单',   // 必要的
+          path: '/my_plan/issueList',
+        }],
       },
 
       {
@@ -142,5 +149,17 @@ module.exports = {
     editLinks: true,
     // 默认为 "Edit this page"
     editLinkText: '帮助我们改善此页面！'
-  }
+  },
+  plugins: {
+    '@vssue/vuepress-plugin-vssue': {
+      platform: 'github-v4', //v3的platform是github，v4的是github-v4
+      locale: 'zh', //语言
+      // 其他的 Vssue 配置
+      owner: 'OWNER_OF_REPO', //github账户名
+      repo: 'NAME_OF_REPO', //github一个项目的名称
+      clientId: 'YOUR_CLIENT_ID',//注册的Client ID
+      clientSecret: 'YOUR_CLIENT_SECRET',//注册的Client Secret
+      autoCreateIssue:true // 自动创建评论，默认是false，最好开启，这样首次进入页面的时候就不用去点击创建评论的按钮了。
+    },
+  },
 }

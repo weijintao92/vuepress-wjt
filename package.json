@@ -22,5 +22,9 @@
   "homepage": "https://github.com/weijintao92/vuepress-wjt#readme",
   "devDependencies": {
     "vuepress": "^1.7.1"
+  },
+  "dependencies": {
+    "@vssue/api-github-v4": "^1.4.0",
+    "@vssue/vuepress-plugin-vssue": "^1.4.6"
   }
 }
