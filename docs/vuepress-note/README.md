@@ -10,9 +10,16 @@ tags:
 ### 页面跳转参考
 [sidebar侧边栏](/vuepress-note/sidebar)
 
-### 默认主题配置参考
 
-[默认主题配置](https://www.vuepress.cn/theme/default-theme-config.html#%E9%A6%96%E9%A1%B5)
+
+### 显示图片
+```
+![An image](./image.png)
+```
+[显示图片-官方文档](https://vuepress.vuejs.org/zh/guide/assets.html#%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84)
+
+### 默认主题配置参考
+[默认主题配置-官方文档](https://www.vuepress.cn/theme/default-theme-config.html#%E9%A6%96%E9%A1%B5)
 
 ### 自定义容器 默认主题
 ::: tip

@@ -61,7 +61,7 @@ module.exports = {
       },
 
       {
-        title: 'vuepress笔记',
+        title: 'Vuepress笔记',
         path: '/vuepress-note/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         children: [{
           title: 'siderbar侧边栏',   // 必要的
@@ -83,6 +83,9 @@ module.exports = {
           children: [{
             title: '提取文件中的源码显示在Web前端页面',   // 必要的
             path: '/vue/OtherNote/ShowCode',
+          },{
+            title: '跨域请求的思考',   // 必要的
+            path: '/vue/OtherNote/Cors',
           }]
         }, {
           title: 'VueRouter',   // 必要的
@@ -106,7 +109,7 @@ module.exports = {
       },
 
       {
-        title: 'mpx',
+        title: 'MPX',
         path: '/mpx/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
       },
 
@@ -154,6 +157,7 @@ module.exports = {
     // 默认为 "Edit this page"
     editLinkText: '帮助我们改善此页面！'
   },
+  // 评论
   plugins: {
     '@vssue/vuepress-plugin-vssue': {
       platform: 'github-v4', //v3的platform是github，v4的是github-v4
