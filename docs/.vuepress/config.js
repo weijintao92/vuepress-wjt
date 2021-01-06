@@ -129,6 +129,22 @@ module.exports = {
         }],
       },
 
+      {
+        title: 'Python',
+        path: '/Python/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        children: [{
+          title: 'Django',   // 必要的
+          path: '/Python/Django/',
+          children:[{
+            title: 'swaggger',   // 必要的
+            path: '/Python/Django/swagger',
+          }]
+        },{
+          title: 'Python风格规范',   // 必要的
+          path: '/Python/PythonStyle',
+        }],
+      },
+
 
     ],
     // 最后更新时间
