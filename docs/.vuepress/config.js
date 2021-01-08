@@ -86,6 +86,12 @@ module.exports = {
           },{
             title: '跨域请求的思考',   // 必要的
             path: '/vue/OtherNote/Cors',
+          },{
+            title: '前端错误汇总',   // 必要的
+            path: '/vue/OtherNote/ErrorList',
+          },{
+            title: 'gitHub第三方登录',   // 必要的
+            path: '/vue/OtherNote/gitHubLogin',
           }]
         }, {
           title: 'VueRouter',   // 必要的
@@ -138,6 +144,10 @@ module.exports = {
           children:[{
             title: 'swaggger',   // 必要的
             path: '/Python/Django/swagger',
+          },
+          {
+            title: 'python接受前端传递的参数',   // 必要的
+            path: '/Python/Django/getParams',
           }]
         },{
           title: 'Python风格规范',   // 必要的
