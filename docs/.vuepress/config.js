@@ -9,7 +9,7 @@ module.exports = {
   dest: 'dist',
   repo: 'https://github.com/weijintao92/vuepress-wjt',// 添加 github 链接
   //端口
-  port: '86',
+  port: '80',
   // 显示代码片段行号
   markdown: {
     lineNumbers: true
