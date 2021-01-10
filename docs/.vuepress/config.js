@@ -51,6 +51,9 @@ module.exports = {
         },{
           title: '问题清单',   // 必要的
           path: '/my_plan/issueList',
+        },{
+          title: '还款计划思考',   // 必要的
+          path: '/my_plan/RepaymentPlan',
         }],
       },
 
