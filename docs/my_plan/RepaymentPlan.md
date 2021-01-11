@@ -9,8 +9,8 @@ tags:
 
 [常见的还款方式及其优缺点-参考](https://www.sohu.com/a/309095754_120114588)
 [招行计算器](http://www.cmbchina.com/CmbWebPubInfo/Cal_Loan_Per.aspx)
-[等额本息计算方式-参考](https://baike.baidu.com/item/%E7%AD%89%E9%A2%9D%E6%9C%AC%E6%81%AF)
-[等额本息法-参考](https://baike.baidu.com/item/%E7%AD%89%E9%A2%9D%E6%9C%AC%E6%81%AF%E6%B3%95/11049926?fr=aladdin)
+[等额本息百度百科-参考](https://baike.baidu.com/item/%E7%AD%89%E9%A2%9D%E6%9C%AC%E6%81%AF)
+[等额本息法百度百科-参考](https://baike.baidu.com/item/%E7%AD%89%E9%A2%9D%E6%9C%AC%E6%81%AF%E6%B3%95/11049926?fr=aladdin)
 
 
 ### 还款类型
@@ -43,7 +43,7 @@ tags:
 
 -   每月利息计算
 
->   p\*i
+>   
 
 -   每月还款本金计算
 
@@ -142,6 +142,19 @@ tags:
 -   最后一期
 
 >   还款金额 = 剩余本金+（剩余本金 \* 月利息）
+
+### 划扣类型
+兴业银行，快付通，线下对公账户转账
+###  提前结清
+- 少于12期
+>本金+补够12期利息
+ - 大于等于12期
+ >剩余本金+当期利息+0.03*剩余本金
+
+ ### 划扣计算
+ 本金 利息 罚息 违约金 
+ ### 错误修正
+ >从新
 
 ### 前端思考
 

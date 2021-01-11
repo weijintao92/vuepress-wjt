@@ -95,6 +95,9 @@ module.exports = {
           },{
             title: 'gitHub第三方登录',   // 必要的
             path: '/vue/OtherNote/gitHubLogin',
+          },{
+            title: 'Http状态码详解',   // 必要的
+            path: '/vue/OtherNote/HttpCode',
           }]
         }, {
           title: 'VueRouter',   // 必要的
