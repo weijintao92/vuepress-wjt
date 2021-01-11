@@ -28,7 +28,7 @@ mysql -u root -p
 alter user user() identified by '123456';
 #选择mysql库
 use mysql;
-# 修改root用户的host
+# 修改root用户的host，以使root用户可以任意主机连接
 update user set host = '%' where user = 'root';
 #修改加密方式，以使navicat可以连接
 ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY '123456';
