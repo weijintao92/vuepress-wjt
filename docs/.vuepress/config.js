@@ -139,6 +139,12 @@ module.exports = {
       },
 
       {
+        title: 'MySql',
+        path: '/MySql/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+   
+      },
+
+      {
         title: 'Python',
         path: '/Python/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         children: [{
