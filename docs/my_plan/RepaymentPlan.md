@@ -12,9 +12,6 @@ tags:
 [等额本息计算方式-参考](https://baike.baidu.com/item/%E7%AD%89%E9%A2%9D%E6%9C%AC%E6%81%AF)
 [等额本息法-参考](https://baike.baidu.com/item/%E7%AD%89%E9%A2%9D%E6%9C%AC%E6%81%AF%E6%B3%95/11049926?fr=aladdin)
 
-### 疑问
-
--   等额本息，我这样算出来和`招行计算器`算出来的结果有差异
 
 ### 还款类型
 
