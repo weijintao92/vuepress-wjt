@@ -9,7 +9,7 @@ tags:
 当我们请求一个接口的时候，出现如：`Access-Control-Allow-Origin` 字眼的时候说明请求跨域了
 ![An image](./Access-Control-Allow-Origin.png)
 
-### 解决方案
+### 配置方式
 [proxy官方参考](https://cli.vuejs.org/zh/config/#devserver-proxy)
 [跨源资源共享（CORS）](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)
 - vue.config.js配置代理
@@ -28,6 +28,9 @@ tags:
       }
     }
 ```
+
+### 注意事项
+- 默认是使用的80端口。所以，如果你修改了项目端口。你在设置baseurl时需要对应的修改你的端口号。
 
 ### 参考
 [vue解决跨域问题](https://www.cnblogs.com/lihaohua/p/12372267.html)

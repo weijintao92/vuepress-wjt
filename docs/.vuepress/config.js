@@ -9,7 +9,7 @@ module.exports = {
   dest: 'dist',
   repo: 'https://github.com/weijintao92/vuepress-wjt',// 添加 github 链接
   //端口
-  port: '80',
+  port: '89',
   // 显示代码片段行号
   markdown: {
     lineNumbers: true
@@ -98,6 +98,16 @@ module.exports = {
           },{
             title: 'Http状态码详解',   // 必要的
             path: '/vue/OtherNote/HttpCode',
+          },{
+            title: '修改滚动条（overflow）样式',   // 必要的
+            path: '/vue/OtherNote/overflow',
+          },
+          ,{
+            title: 'vue设置代理（proxy）',   // 必要的
+            path: '/vue/OtherNote/Proxy',
+          } ,{
+            title: 'Vue粒子特效（vue-particles插件）',   // 必要的
+            path: '/vue/OtherNote/particle',
           }]
         }, {
           title: 'VueRouter',   // 必要的

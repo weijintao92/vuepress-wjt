@@ -52,12 +52,7 @@ Api:https://api.github.com/user
 参数：access_token
 
 
-
-
-
-
-
-
-
+### 注意
+- 有时候太过频繁的请求，会导致404的错误！
 
 <Vssue  />

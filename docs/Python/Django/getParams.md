@@ -6,6 +6,8 @@ tags:
  - request
  - get
  - post
+ - proxy
+ - 代理
 ---
 
 ### python接受前端传递的参数
