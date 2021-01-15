@@ -102,27 +102,32 @@ module.exports = {
             title: '修改滚动条（overflow）样式',   // 必要的
             path: '/vue/OtherNote/overflow',
           },
-          ,{
+          {
             title: 'vue设置代理（proxy）',   // 必要的
             path: '/vue/OtherNote/Proxy',
-          } ,{
+          },
+          {
             title: 'Vue粒子特效（vue-particles插件）',   // 必要的
             path: '/vue/OtherNote/particle',
-          }]
-        }, {
+          }
+         ]
+        }, 
+         {
           title: 'VueRouter',   // 必要的
           path: '/vue/Router',
           children: [{
             title: 'VueRouter 动态路由配置的坑',   // 必要的
             path: '/vue/Router/VueRouter',
           }]
-        }, {
+        },
+        {
           title: '第三方插件',   // 必要的
           path: '/vue/OtherPlugin',
           children: [{
             title: 'Clipboard 复制插件',   // 必要的
             path: '/vue/OtherPlugin/Clipboard',
-          }, {
+          }, 
+          {
             title: 'Highlight 在页面中高亮显示代码',   // 必要的
             path: '/vue/OtherPlugin/Highlight',
           }]
