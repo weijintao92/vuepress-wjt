@@ -58,10 +58,21 @@ module.exports = {
       },
 
       {
+        title: '其他',
+        path: '/Other/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        children: [{
+          title: '给苹果电脑装系统',   // 必要的
+          path: '/Other/macOS/InstallMacosMojave',
+        }],
+        initialOpenGroupIndex: -1 // 可选的, 默认值是 0
+      },
+
+      {
         title: 'Npm笔记',
         path: '/npm/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         initialOpenGroupIndex: -1 // 可选的, 默认值是 0
       },
+      
 
       {
         title: 'Vuepress笔记',
