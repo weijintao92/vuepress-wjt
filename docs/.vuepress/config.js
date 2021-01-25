@@ -190,6 +190,9 @@ module.exports = {
         },{
           title: 'Python风格规范',   // 必要的
           path: '/Python/PythonStyle',
+        },{
+          title: 'Pip包的管理',   // 必要的
+          path: '/Python/Pip/',
         }],
       },
 
