@@ -63,6 +63,9 @@ module.exports = {
         children: [{
           title: '给苹果电脑装系统',   // 必要的
           path: '/Other/macOS/InstallMacosMojave',
+        },{
+          title: '如何夹网线',   // 必要的
+          path: '/Other/RegisteredJack/',
         }],
         initialOpenGroupIndex: -1 // 可选的, 默认值是 0
       },

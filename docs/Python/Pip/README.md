@@ -13,7 +13,7 @@ tags:
 ### 命令
 
 ```cmd
-#导出 
+#导出所有已经安装的包
 pip freeze > ./package.md
 #批量安装
 pip install -r package.md
