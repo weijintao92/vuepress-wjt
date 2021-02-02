@@ -44,10 +44,10 @@ module.exports = {
 
       {
         title: 'PLAN',
-        path: '/my_plan/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        path: '/my_plan/2021Plan',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         children: [{
-          title: '计划',   // 必要的
-          path: '/my_plan/',
+          title: '2021个人计划',   // 必要的
+          path: '/my_plan/2021Plan',
         },{
           title: '问题清单',   // 必要的
           path: '/my_plan/issueList',
