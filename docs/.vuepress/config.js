@@ -75,6 +75,16 @@ module.exports = {
         path: '/npm/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         initialOpenGroupIndex: -1 // 可选的, 默认值是 0
       },
+
+      {
+        title: 'IT支持相关',
+        path: '/IT/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        children: [{
+          title: '批处理添加共享打印机',   // 必要的
+          path: '/IT/shared_printer/',
+        }],
+        initialOpenGroupIndex: -1 // 可选的, 默认值是 0
+      },
       
 
       {
