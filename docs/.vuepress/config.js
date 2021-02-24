@@ -9,7 +9,7 @@ module.exports = {
   dest: 'dist',
   repo: 'https://github.com/weijintao92/vuepress-wjt',// 添加 github 链接
   //端口
-  port: '89',
+  port: '80',
   // 显示代码片段行号
   markdown: {
     lineNumbers: true
@@ -66,6 +66,9 @@ module.exports = {
         },{
           title: '如何夹网线',   // 必要的
           path: '/Other/RegisteredJack/',
+        },{
+          title: '隧道搭建',   // 必要的
+          path: '/Other/tunnel/',
         }],
         initialOpenGroupIndex: -1 // 可选的, 默认值是 0
       },
