@@ -13,6 +13,10 @@ tags:
 # 前言
 - 随着微信小程序和appstore对ssl安全的需求，越来越多的网站和app需要支持SSL功能，需要开启https的方式来打开网站或传输数据。最直观的就是有了ssl证书后，在浏览器访问时不会有`不安全`的提示
 
+
+# 注意
+- 记得清理浏览器缓存
+
 # nginx 配置文件
 ```
     # 我的api
@@ -67,6 +71,7 @@ nginx -s reload # 重新载入配置文件
 nginx -s reopen # 重启 Nginx
 nginx -s stop # 停止 Nginx
 netstat -lnpt #查看开放了哪些端口
+nginx -t   #检查配置文件
 ```
 
 # 参考
