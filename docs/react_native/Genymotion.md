@@ -24,12 +24,5 @@ adb shell flash-archive.sh /sdcard/download/Genymotion-ARM-Translation.zip
 
 
 
-
-
-
-
-
-
-
 <!-- 评论 -->
 <Vssue />
