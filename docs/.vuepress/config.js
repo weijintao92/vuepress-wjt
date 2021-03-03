@@ -1,4 +1,5 @@
 module.exports = {
+  base:"/blog/",
   title: '未金涛的地盘',
   description: '未金涛的地盘',
   //定制头部icon
