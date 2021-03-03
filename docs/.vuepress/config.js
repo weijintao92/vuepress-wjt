@@ -58,6 +58,15 @@ module.exports = {
       },
 
       {
+        title: 'React Native',
+        path: '/react_native/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        children: [{
+          title: 'React Native 搭建开发环境',   // 必要的
+          path: '/react_native/install',
+        }]
+      },
+
+      {
         title: '其他',
         path: '/Other/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         children: [{

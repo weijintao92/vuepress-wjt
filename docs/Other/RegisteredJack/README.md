@@ -1,21 +1,12 @@
 ---
-title: 如何夹网线
+title: React Native 
 tags:
- - RegisteredJack 
- - 网线
- - 水晶头
+ - React Native 
+
 ---
 
-### 水晶头概述
-[网线水晶头接法](https://baike.baidu.com/item/%E7%BD%91%E7%BA%BF%E6%B0%B4%E6%99%B6%E5%A4%B4%E6%8E%A5%E6%B3%95/7348966?fr=aladdin)
-
-- 568A标准：白绿 绿 白橙 蓝 白蓝 橙 白棕 棕
-- 568B标准：白橙 橙 白绿 蓝 白蓝 绿 白棕 棕
-
-### 面板概述
-- 在一般的职场布线中，在每个工位上都会有一个网线插口的面板。我们在接这个面板的时候，需要根据面板的标准来接。（因为，面板极有可能并不是按照标准排的颜色）接完后，最后使用工具测试一下`线序`
-
-
+###  React Native
+- React Native 学习笔记
 
 
 
