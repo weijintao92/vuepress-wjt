@@ -63,6 +63,9 @@ module.exports = {
         children: [{
           title: 'React Native 搭建开发环境',   // 必要的
           path: '/react_native/install',
+        },{
+          title: 'Genymotion安装app',   // 必要的
+          path: '/react_native/Genymotion',
         }]
       },
 
